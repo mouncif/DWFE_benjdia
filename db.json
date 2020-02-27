@@ -1,0 +1,57 @@
+{
+    "produit": [
+      {
+        "id": 1,
+        "nom": "Lousieur",
+        "nomcrt": "lsr",
+        "prixbase": 10,
+        "prixvente": 12,
+        "seuilmx": 20,
+        "uniteprod": "lettre",
+        "image_url": "C:\\imageProd\\lseu.jpg",
+        "qteini": 60,
+        "qteact": 55
+      }
+      
+    ],
+
+    "client": [
+        {
+          "id": 1,
+          "nom": "Lousieur",
+          "prenom": "lsr",
+          "status": "status1",
+          "photocl": "C:\\imageProd\\lseu.jpg",
+          "tel": "09404948484",
+          "mailcli":"clien1@gmail.com",
+          "adresse":"lkrakraRue3",
+          "ville":"Settat"
+        }
+        
+      ],
+
+    "fournisseur": [
+      {
+        "id": 1,
+        "nom": "benjdia",
+        "nomcrt": "bnj",
+        "ville": "Settat",
+        "Adresse": "rue smaala",
+        "telfix": "0657473839",
+        "telmobil": "Vérifiez les zones à risque naturel",
+        "fax": "fax1",
+        "mail":"saad12@gmail.com"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "datecre": "21/09/2019",
+        "datefin": "2/1/2020",
+        "photoutil": "C:\\imageProd\\lseu.jpg",
+        "email":"users1@gmail.com"
+      }
+      
+    ]
+  
+  }
