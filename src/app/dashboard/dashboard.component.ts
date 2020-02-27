@@ -7,7 +7,7 @@ import { User } from '../_model/user';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrls: ['../app.component.scss','./dashboard.component.scss'],
+  styleUrls: ['../app.component.css','./dashboard.component.css'],
   encapsulation: ViewEncapsulation.None
 })
 export class DashboardComponent implements OnInit {

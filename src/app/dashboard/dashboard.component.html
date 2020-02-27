@@ -7,13 +7,14 @@
                         <i class="mdi mdi-receipt text-danger icon-lg"></i>
                     </div>
                     <div class="float-right">
-                        <p class="mb-0 text-right">Les annonces</p>
+                        <p class="mb-0 text-right">Les produits</p>
                         <div class="fluid-container">
-                            <h3 class="font-weight-medium text-right mb-0">{{ countAnnonces.length }}</h3>
+                            <h3 class="font-weight-medium text-right mb-0"><!--{{ countAnnonces.length }}--></h3>
                         </div>
                     </div>
                 </div>
-                <a routerLink="/annonceList" style="text-decoration: none; color: gray;">Voir les détails</a>
+                <a routerLink="/" style="text-decoration: none; color: gray;">Voir les détails</a>
+                <!--<a routerLink="/annonceList" style="text-decoration: none; color: gray;">Voir les détails</a>-->
             </div>
         </div>
     </div>
@@ -25,7 +26,7 @@
                         <i class="mdi mdi-account-multiple text-warning icon-lg"></i>
                     </div>
                     <div class="float-right">
-                        <p class="mb-0 text-right">Les utilisateurs</p>
+                        <p class="mb-0 text-right">Les clients</p>
                         <div class="fluid-container">
                             <h3 class="font-weight-medium text-right mb-0">{{ countUsers.length }}</h3>
                         </div>
@@ -49,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <a routerLink="/articleList" style="text-decoration: none; color: gray;">Voir les détails</a>
+              <a routerLink="/articleList" style="text-decoration: none; color: gray;">Voir les détails</a>
             </div>
         </div>
     </div>
@@ -71,7 +72,7 @@
                         <h4 class="display-3">{{ CurrentCityTemp | number | shotenPipe }}
                             <span class="symbol">&deg;</span>C</h4>
                         <p>
-                            {{ skyState }}
+                        {{ skyState }}
                         </p>
                     </div>
                 </div>
